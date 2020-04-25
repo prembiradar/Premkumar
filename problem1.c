@@ -1,17 +1,16 @@
 #include <stdio.h>
 int main()
 {
-   int first, second, add, subtract, multiply;
+   int a, b, add, subtract, multiply;
    float divide;
  
    printf("Enter two integers\n");
-   scanf("%d%d", &first, &second);
+   scanf("%d%d", &a, &b);
  
-   add = first + second;
-   subtract = first - second;
-   multiply = first * second;
-   divide = first / (float)second;   //typecasting
-
+   add = a + b;
+   subtract = a - b;
+   multiply = a * b;
+   divide = a / (float)b;
    printf("Sum = %d\n", add);
    printf("Difference = %d\n", subtract);
    printf("Multiplication = %d\n", multiply);
